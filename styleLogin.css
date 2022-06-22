@@ -1,0 +1,96 @@
+.login {
+    position: relative;
+    top: -15px;
+    left: -165px;
+    }
+
+    .border {
+        border: solid 1px #80808052;
+        width: 351px;
+        height: 449px;
+    }
+        #logo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+            #logoinstagram {
+                padding: 15px;
+                width: 180px;
+            }
+
+        .photoperfil {
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+
+            #perfil {
+                border-radius: 50%;
+                width: 150px;
+            }
+        
+        .divbutton {
+            width: 100%;
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+            #buttonuser {
+                border: solid 1px #438FE0;
+                background-color: #438FE0;
+                height: 30px;
+                color: white;
+                border-radius: 5px;
+                font-weight: 700;
+                font-size: 14px;
+            }
+
+            #removeuser {
+                border: solid 1px rgba(128, 128, 128, 0.226);
+                margin: 10px;
+                height: 30px;
+                color: #438FE0;
+                border-radius: 5px;
+                font-weight: 700;
+                font-size: 14px;
+            }
+
+        .footeruser {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 25px;
+            color: rgba(128, 128, 128, 0.699);
+        }
+
+            #strong {
+                font-weight: 700;
+                color: #438FE0;
+            }
+
+        .app {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(32, 30, 30);
+            font-weight: 700;
+            margin-top: 40px;
+            font-size: 18px;
+        }
+
+            #divapps {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 15px;
+            }
+
+                #apps {
+                    width: 130px;
+                    margin: 5px;
+                }
+
+    
